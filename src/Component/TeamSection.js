@@ -12,7 +12,7 @@ function TeamSection() {
         <div className='flex pt-16 gap-[30px] justify-center'>
             <div className='flex flex-col'>
                 <div className='border-[1px] border-[#3A3C56] rounded-[6px] w-[270px] h-[272px]'>
-                    <img src='/images/user (2).png' alt='' />
+                    <img src='/Images/user (2).png' alt='' />
                 </div>
                 <h1 className='text-white font-poppins font-bold leading-8 text-2xl mt-[26px]'>
                     Rule Lulu Damara
@@ -23,7 +23,7 @@ function TeamSection() {
             </div>
             <div className='flex flex-col'>
                 <div className='border-[1px] border-[#3A3C56] rounded-[6px] w-[270px] h-[272px]'>
-                    <img src='/images/user (2).png' alt='' />
+                    <img src='/Images/user (2).png' alt='' />
                 </div>
                 <h1 className='text-white font-poppins font-bold leading-8 text-2xl mt-[26px]'>
                     Muhammad Raffi Tri R
@@ -34,7 +34,7 @@ function TeamSection() {
             </div>
             <div className='flex flex-col'>
                 <div className='border-[1px] border-[#3A3C56] rounded-[6px] w-[270px] h-[272px]'>
-                    <img src='/images/user (2).png' alt='' />
+                    <img src='/Images/user (2).png' alt='' />
                 </div>
                 <h1 className='text-white font-poppins font-bold leading-8 text-2xl mt-[26px]'>
                     Dimas Fadilah Akbar
