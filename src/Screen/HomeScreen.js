@@ -1,5 +1,8 @@
 import React from "react";
 import Layout from "../Layout/Layout";
+import EventSection from "../Component/EventSection";
+import TeamSection from "../Component/TeamSection";
+import FounderSection from "../Component/FounderSection";
 
 const HomeScreen = () => {
   return (
@@ -323,7 +326,7 @@ const HomeScreen = () => {
               </div>
             </div>
 
-            <div className="w-[90%] mx-auto">
+            <div className="w-[90%] mx-auto mb-20">
               <div className="w-full  flex flex-row justify-between">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6991069286896!2d112.78854147394688!3d-7.275038592732042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa1767eedb95%3A0xd22550bc6391c2b2!2sJl.%20Wisma%20Permai%20II%20O%20No.21%2C%20RT.005%2FRW.06%2C%20Mulyorejo%2C%20Kec.%20Mulyorejo%2C%20Surabaya%2C%20Jawa%20Timur%2060115!5e0!3m2!1sen!2sid!4v1694029939994!5m2!1sen!2sid"
@@ -367,6 +370,9 @@ const HomeScreen = () => {
               </div>
             </div>
           </div>
+          <EventSection />
+          <TeamSection />
+          <FounderSection />
         </div>
       </Layout>
     </>
