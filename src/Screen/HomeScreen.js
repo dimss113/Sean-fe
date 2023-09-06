@@ -182,9 +182,6 @@ const HomeScreen = () => {
               </p>
             </div>
           </div>
-          <EventSection />
-          <TeamSection />
-          <FounderSection />
         </div>
       </Layout>
     </>
