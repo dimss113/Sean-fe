@@ -8,7 +8,7 @@ function FounderSection() {
         </svg>
         <div className='pt-[180px] flex gap-[130px] justify-center items-center pb-[180px]'>
             <div className='w-[500px] h-[500px] border-[1px] rounded-[20px] border-[#3A3C56]'>
-                <img src='/images/user (2).png' alt=''/>
+                <img src='/Images/user (2).png' alt=''/>
             </div>
             <div className='flex flex-col'>
                 <h1 className='uppercase text-[#EF6D58] font-normal leading-8 text-base font-poppins'>
