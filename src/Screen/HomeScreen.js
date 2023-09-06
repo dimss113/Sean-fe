@@ -1,5 +1,8 @@
 import React from "react";
 import Layout from "../Layout/Layout";
+import EventSection from "../Component/EventSection";
+import TeamSection from "../Component/TeamSection";
+import FounderSection from "../Component/FounderSection";
 
 const HomeScreen = () => {
   return (
@@ -179,6 +182,9 @@ const HomeScreen = () => {
               </p>
             </div>
           </div>
+          <EventSection />
+          <TeamSection />
+          <FounderSection />
         </div>
       </Layout>
     </>
