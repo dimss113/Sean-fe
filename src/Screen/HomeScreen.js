@@ -38,7 +38,7 @@ const HomeScreen = () => {
               </div>
             </div>
 
-            <div className="flex basis-1/2  h-[10em] my-10 sm:my-0">
+            <div className="flex basis-1/2  h-[10em] my-20 sm:my-0">
               <div className="relative  w-full h-full">
                 <div className="w-[5.125em] h-[6em] absolute  -top-5 left-10 bg-[#B550F8] rounded-tr-full rounded-tl-full">
                   <img
