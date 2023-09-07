@@ -10,7 +10,7 @@ const HomeScreen = () => {
       <Layout>
         {/* bagian 1 */}
         <div className="w-[90%] mx-auto my-4 text-[18px] sm:text-[24px] md:text-[30px] lg:text-[48px]">
-          <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-col sm:flex-row justify-between items-center">
             <div className="basis-1/2 flex flex-col relative ">
               <img
                 src="Images/Star.png"
@@ -38,7 +38,7 @@ const HomeScreen = () => {
               </div>
             </div>
 
-            <div className="flex basis-1/2  h-[10em]">
+            <div className="flex basis-1/2  h-[10em] my-10 sm:my-0">
               <div className="relative  w-full h-full">
                 <div className="w-[5.125em] h-[6em] absolute  -top-5 left-10 bg-[#B550F8] rounded-tr-full rounded-tl-full">
                   <img
@@ -113,9 +113,9 @@ const HomeScreen = () => {
           <div className="w-[90%] h-[1px] border border-second mt-10 mb-20 mx-auto"></div>
 
           {/* bagian 2 -- 2 */}
-          <div className="w-[90%] flex flex-row mx-auto">
-            <div className="relative w-[11.791666em] h-[12.2083333em] ">
-              <div className="absolute right-0 top-0 w-[9.79166666em] h-[6.645833333em]">
+          <div className="w-[90%] flex flex-row mx-auto text-[18px] sm:text-[24px] md:text-[30px] lg:text-[48px]">
+            <div className="basis-1/2 relative w-[11.791666em] h-[12.2083333em] ">
+              <div className="absolute right-[1.6666666em] top-0 w-[9.79166666em] h-[6.645833333em]">
                 <img
                   src="Images/vet.jpg"
                   alt="group"
@@ -123,7 +123,7 @@ const HomeScreen = () => {
                 />
               </div>
 
-              <div className="absolute left-0 bottom-[2.5em] w-[4.5525em] h-[4.5525em]">
+              <div className="absolute left-[3.3333em] bottom-[2.5em] w-[4.5525em] h-[4.5525em]">
                 <img
                   src="Images/sean-logo.png"
                   alt="sean-logo"
@@ -308,10 +308,12 @@ const HomeScreen = () => {
 
           <div className="w-full bg-purp text-[18px] sm:text-[24px] md:text-[30px] lg:text-[48px]">
             <div className="w-[90%] flex flex-row justify-between items-center mx-auto my-20">
-              <p className="basis-1/2 font-poppins font-[800] text-dark text-[0.833333em] capitalize">
-                newsletter
-              </p>
-              <div className="basis-1/2 flex flex-row">
+              <div className="basis-1/2 flex justify-start items-center">
+                <p className="basis-1/2 font-poppins font-[800] text-dark text-[0.833333em] capitalize">
+                  newsletter
+                </p>
+              </div>
+              <div className="basis-1/2 flex flex-row justify-end items-center">
                 <div className="flex flex-row w-[7.70833333em] h-[1em] justify-start items-center p-2 bg-main rounded-lg mx-4">
                   <input
                     className="w-[80%] outline-none font-poppins font-[400] text-whitek text-[0.333333em] bg-main"
@@ -327,7 +329,7 @@ const HomeScreen = () => {
             </div>
 
             <div className="w-[90%] mx-auto mb-20">
-              <div className="w-full  flex flex-row justify-between">
+              <div className="w-full  flex flex-col sm:flex-row justify-center items-center sm:items-stretch sm:justify-between ">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6991069286896!2d112.78854147394688!3d-7.275038592732042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa1767eedb95%3A0xd22550bc6391c2b2!2sJl.%20Wisma%20Permai%20II%20O%20No.21%2C%20RT.005%2FRW.06%2C%20Mulyorejo%2C%20Kec.%20Mulyorejo%2C%20Surabaya%2C%20Jawa%20Timur%2060115!5e0!3m2!1sen!2sid!4v1694029939994!5m2!1sen!2sid"
                   className="basis-1/2"
@@ -336,7 +338,7 @@ const HomeScreen = () => {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
-                <div className="w-[9.791666em] h-[9.66666666me] bg-main rounded-lg flex flex-col py-10 px-5 justify-center items-center">
+                <div className="w-[9.791666em] h-[9.66666666me]  bg-main rounded-lg flex flex-col py-10 px-5 justify-center items-center text-[30px] sm:text-[24px] md:text-[30px] lg:text-[48px] my-10 sm:my-0">
                   <p className="my-4 font-poppins font-[700] text-second text-[0.5em]">
                     Get In Touch
                   </p>

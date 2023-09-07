@@ -2,43 +2,61 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-purp flex flex-col justify-center px-[135px]">
-      <div className="flex mt-[80px] mb-[80px]">
-        <div className="w-[391px] h-[192px] rounded-l-lg border-[1px] border-second">
+    <div className="bg-purp flex flex-col justify-center px-[2.8125em] text-[30px] sm:text-[24px] md:text-[30px] lg:text-[48px]">
+      <div className="flex flex-col sm:flex-row mt-[1.666666em] mb-[1.666666em] mx-auto">
+        <div className="w-[8.14583333em] h-[4em] rounded-l-[0.166666em] border-[0.02083333em] border-second">
           <div className="flex flex-col">
-            <div className="flex ml-[48px] mt-[32px] gap-4 items-center">
-              <img src="/Images/phone.png" alt="" />
-              <h1 className="uppercase text-[#EF6D58] font-poppins font-normal leading-8 text-base">
+            <div className="flex ml-[1em] mt-[0.6666666em] gap-[0.33333333em] items-center">
+              <div className="flex w-[1.3333333em] h-[1.3333333em]">
+                <img
+                  src="/Images/phone.png"
+                  alt=""
+                  className="w-full object-contain"
+                />
+              </div>
+              <h1 className="uppercase text-[#EF6D58] font-poppins font-normal leading-[0.6666666em] text-[0.33333333em]">
                 Phone
               </h1>
             </div>
-            <h1 className="ml-[48px] mt-[26px] font-poppins leading-8 font-normal text-xl text-[#391400]">
+            <h1 className="ml-[1em] mt-[1.5em] font-poppins leading-[0.66666666em] font-normal text-[0.4em] text-[#391400]">
               +62 812 3456 7890
             </h1>
           </div>
         </div>
-        <div className="w-[391px] h-[192px] border-[1px] border-second">
+        <div className="w-[8.14583333em] h-[4em] border-[0.02083333em] border-second">
           <div className="flex flex-col">
-            <div className="flex ml-[48px] mt-[32px] gap-4 items-center">
-              <img src="/Images/messagepng.png" alt="" />
-              <h1 className="uppercase text-[#EF6D58] font-poppins font-normal leading-8 text-base">
+            <div className="flex ml-[1em] mt-[0.6666666em] gap-[0.33333333em] items-center">
+              <div className="flex w-[1.3333333em] h-[1.3333333em]">
+                <img
+                  src="/Images/messagepng.png"
+                  alt=""
+                  className="w-full object-contain"
+                />
+              </div>
+              <h1 className="uppercase text-[#EF6D58] font-poppins font-normal leading-[0.6666666em] text-[0.33333333em]">
                 Email
               </h1>
             </div>
-            <h1 className="ml-[48px] mt-[26px] font-poppins leading-8 font-normal text-xl text-[#391400]">
+            <h1 className="ml-[1em] mt-[1.5em] font-poppins leading-[0.6666666em] font-normal text-[0.4em] text-[#391400]">
               sean@gmail.com
             </h1>
           </div>
         </div>
-        <div className="w-[391px] h-[192px] rounded-r-lg border-[1px] border-second">
+        <div className="w-[8.14583333em] h-[4em] rounded-r-lg border-[0.02083333em] border-second">
           <div className="flex flex-col">
-            <div className="flex ml-[48px] mt-[32px] gap-4 items-center">
-              <img src="/Images/address.png" alt="" />
-              <h1 className="uppercase text-[#EF6D58] font-poppins font-normal leading-8 text-base">
+            <div className="flex ml-[1em] mt-[0.6666666em] gap-[0.33333333em] items-center">
+              <div className="flex w-[1.3333333em] h-[1.3333333em]">
+                <img
+                  src="/Images/address.png"
+                  alt=""
+                  className="w-full object-contain"
+                />
+              </div>
+              <h1 className="uppercase text-[#EF6D58] font-poppins font-normal leading-[0.6666666em] text-[0.33333333em]">
                 Address
               </h1>
             </div>
-            <h1 className="ml-[48px] mt-[26px] font-poppins leading-8 font-normal text-xl text-[#391400]">
+            <h1 className="ml-[1em] mt-[1.5em] font-poppins leading-[0.6666666em] font-normal text-[0.4em] text-[#391400]">
               Surabaya
             </h1>
           </div>
