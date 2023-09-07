@@ -3,13 +3,13 @@ import React from 'react'
 function TeamSection() {
   return (
     <div className="flex flex-col px-[2.8125em] w-full bg-main pt-[2.916666em] text-[18px] sm:text-[24px] md:text-[30px] lg:text-[48px]">
-      <h1 className="text-[#EF6D58] leading-8 font-poppins font-normal text-base uppercase">
+      <h1 className="text-[#EF6D58] leading-8 font-poppins font-normal text-base uppercase text-center sm:text-left">
         Our Team
       </h1>
-      <h1 className="text-white mt-5 font-poppins text-[1.16666em] leading-[1.33333em] font-extrabold max-w-xl">
+      <h1 className="text-white mt-5 font-poppins text-[1.16666em] leading-[1.33333em] font-extrabold max-w-xl text-center sm:text-left">
         Team of Designers and Developers
       </h1>
-      <div className="flex flex-col sm:flex-row pt-16 gap-[0.625em] justify-center text-[34px] md:text-[30px] lg:text-[48px] ">
+      <div className="flex flex-col sm:flex-row pt-16 gap-[0.625em] justify-center text-[34px] md:text-[30px] lg:text-[48px] mx-auto sm:mx-0">
         <div className="flex flex-col">
           <div className="border-[1px] border-[#3A3C56] rounded-[0.125em] w-[5.625em] h-[5.666666666em]">
             <img src="/Images/user (2).png" alt="" />
