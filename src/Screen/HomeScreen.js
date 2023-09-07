@@ -29,8 +29,8 @@ const HomeScreen = () => {
                 pemesanan makanan hewan.
               </p>
 
-              <div className="flex flex-col my-8">
-                <div className="cursor-pointer flex bg-[#EF6D58] w-[3.208333em] h-[1em] rounded-lg justify-center items-center">
+              <div className="flex flex-col my-[0.666666666666em]">
+                <div className="cursor-pointer flex bg-[#EF6D58] w-[3.208333em] h-[1em] rounded-[0.1666666666em] justify-center items-center">
                   <p className="font-poppins font-[900] text-white text-[0.2916666em] uppercase ">
                     how we work
                   </p>
