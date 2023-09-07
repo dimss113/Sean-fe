@@ -19,7 +19,7 @@ const Navbar = () => {
             </h1>
           </div>
 
-          <div className="flex flex-row">
+          <div className="hidden sm:flex flex-row ">
             <Link
               to="/"
               className="mx-8 hover:text-[#ddd] font-poppins font-[400] text-white text-[0.3333em]"
